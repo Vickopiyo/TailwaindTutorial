@@ -1,8 +1,18 @@
 import tail from "./assets/tail.png"
+import Nav from "./component/Nav"
 
 function App() {
 	return (
-		<div className=" font-sans  flex flex-col items-center">
+		<div className=" ">      
+		      
+          <Nav  />
+            <div    className="w-full h-screen"></div>
+
+        
+
+
+
+
 			{/* <div className="flex flex-col  items-center">
 				<header className="bg-indigo-700  w-full px-4 py-3  flex justify-center  items-center   border-pink-500 border-b-4 ">
 					<div className="max-w-4xl w-full">
@@ -286,9 +296,9 @@ function App() {
 				</div> */}
 			{/* </div> */}
 
-			<header className="bg-indigo-700 w-full px-4 py-3 flex justify-center  border-b-4 border-pink-500">
+			{/* <header className="bg-indigo-700 w-full px-4 py-3 flex justify-center  border-b-4 border-pink-500"> */}
 				{/* NAV SECTION  */}
-				<div className="max-w-4xl w-full">
+				{/* <div className="max-w-4xl w-full">
 					<div className="flex items-center justify-between ">
 						<div className="text-pink-500">
 							<svg
@@ -352,10 +362,10 @@ function App() {
 
 					<h2 className=" border-4 w-full text-indigo-600 font-bold  text-xl pb-1 ">
 						Advantages
-					</h2>
+					</h2> */}
 
 					{/* Here  because of mx-2 in each card  to create room misaligns it with Heading (Advantages)  thus on sm there is need to eat on the margin adjacent to compensate.  */}
-					<div className="flex flex-col sm:flex-row sm:-mx-2">
+					{/* <div className="flex flex-col sm:flex-row sm:-mx-2">
 						<div className="mt-4 sm:w-1/3">
 							<div className="bg-white  h-full p-8 border-b-4 border-pink-500   sm:mx-2  sm:p-3  md:p-8  rounded-lg  flex flex-col items-center">
 								<div className="bg-gray-200 text-indigo-700 p-2  w-16  rounded-full  ">
@@ -467,7 +477,7 @@ function App() {
 								id="title"
 							/>
 						</div>
-						<div  className=" md:-mx-2 ">
+						<div className=" md:-mx-2 ">
 							<button className="bg-blue-600 text-sm mt-4 rounded-lg py-2 px-4 w-full ">
 								Create Account
 							</button>
@@ -480,7 +490,16 @@ function App() {
 					Copyright © 2019 Scrimba
 				</p>
 			</footer>
-		</div>                    
+
+			<button className="  h-screen">
+				<svg
+					className="h-8 w-8 fill-current"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 448 512">
+					<path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0  32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+				</svg>
+			</button> */}
+		</div>
 	)
 }
 
